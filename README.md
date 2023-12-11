@@ -1,6 +1,5 @@
-Project Overview:
-
-1. Technology Stack:
+# Blogie
+<h1>Technology Stack</h1>:
 
 Frontend (Client Side): React.js
 Backend (Server Side): Node.js with Express.js
