@@ -4,7 +4,7 @@
 <h5>Frontend (Client Side):</h5> React.js
 <h5>Backend (Server Side):</h5> Node.js with Express.js
 <h5>Database:</h5> MongoDB
-<h5>Authentication:</h5> JWT (JSON Web Tokens)
+Authentication: JWT (JSON Web Tokens)
 
 2. Features:
 
