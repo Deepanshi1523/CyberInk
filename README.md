@@ -1,6 +1,6 @@
 # Blogie
 <h4>Technology Stack:</h4>
-Frontend (Client Side): React.js
+<p>Frontend (Client Side): React.js</p>
 Backend (Server Side): Node.js with Express.js
 Database: MongoDB
 Authentication: JWT (JSON Web Tokens)
