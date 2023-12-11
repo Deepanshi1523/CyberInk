@@ -5,13 +5,12 @@
 <p>  Database: MongoDB</p>
 <p>  Authentication: JWT (JSON Web Tokens)</p>
 
-2. Features:
-
-User registration and authentication.
-Create, edit, and delete blog posts.
-View a list of blog posts.
-Comment on blog posts.
-JWT-based authentication for secure user sessions.
+<h4>Features:</h4>
+<p>User registration and authentication.</p>
+<p>Create, edit, and delete blog posts.</p>
+<p>View a list of blog posts.</p>
+<p>Comment on blog posts.</p>
+<p>JWT-based authentication for secure user sessions.</p>
 
 3. Architecture:
 
