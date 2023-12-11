@@ -19,43 +19,40 @@
 <p>&nbsp&nbsp&nbspComponents for displaying blog posts, handling user authentication, and managing user &nbsp&nbsp&nbspinteractions.</p>
 
 <p><b>&nbsp&nbspBackend (Node.js with Express.js):</b></p>
-
 <p>&nbsp&nbsp&nbspExpress.js is used to create a RESTful API.</p>
 <p>&nbsp&nbsp&nbspRoutes for user authentication (registration, login) and managing blog posts (CRUD operations).</p>
 <p>&nbsp&nbsp&nbspInteraction with the MongoDB database using Mongoose for data storage and retrieval.</p>
 
-Database (MongoDB):
+<p><b>&nbsp&nbspDatabase (MongoDB):</b></p>
+<p>&nbsp&nbsp&nbspMongoDB is used as a NoSQL database to store user information, blog posts, and comments.</p>
 
-MongoDB is used as a NoSQL database to store user information, blog posts, and comments.
-Authentication (JWT):
+<p><b>&nbsp&nbspAuthentication (JWT):</b></p>
+<p>&nbsp&nbsp&nbspJWT is employed for secure user authentication.</p>
+<p>&nbsp&nbsp&nbspWhen a user logs in, the server generates a JWT containing the user's information and sends it back to the client.</p>
+<p>&nbsp&nbsp&nbspThe client includes this token in the headers of subsequent requests, allowing the server to verify the user's identity.</p>
 
-JWT is employed for secure user authentication.
-When a user logs in, the server generates a JWT containing the user's information and sends it back to the client.
-The client includes this token in the headers of subsequent requests, allowing the server to verify the user's identity.
+<h3>Workflow:</h3>
 
-4. Workflow:
+<p><b>&nbsp&nbspUser Registration and Login:</b></p>
+<p>&nbsp&nbsp&nbspUsers register by providing necessary information (username, email, password).</p>
+<p>&nbsp&nbsp&nbspPasswords are securely hashed and stored in the database.</p>
+<p>&nbsp&nbsp&nbspJWT is generated upon successful login and sent to the client.</p>
 
-User Registration and Login:
+<p><b>&nbsp&nbspBlog Post Management:</b></p>
+<p>&nbsp&nbsp&nbspAuthenticated users can create, edit, and delete their blog posts.</p>
+<p>&nbsp&nbsp&nbspBlog posts are stored in the MongoDB database.</p>
 
-Users register by providing necessary information (username, email, password).
-Passwords are securely hashed and stored in the database.
-JWT is generated upon successful login and sent to the client.
-Blog Post Management:
+<p><b>&nbsp&nbspAuthentication with JWT:</b></p>
+<p>&nbsp&nbsp&nbspJWT is used for secure authentication.</p>
+<p>&nbsp&nbsp&nbspEach request to the server includes the JWT token in the headers.</p>
+<p>&nbsp&nbsp&nbspThe server validates the token, allowing or denying access accordingly.</p>
 
-Authenticated users can create, edit, and delete their blog posts.
-Blog posts are stored in the MongoDB database.
-Authentication with JWT:
+<p><b>&nbsp&nbspCommenting System:</b></p>
+<p>&nbsp&nbsp&nbspUsers can comment on blog posts.</p>
+<p>&nbsp&nbsp&nbspComments are associated with specific blog posts in the database.</p>
 
-JWT is used for secure authentication.
-Each request to the server includes the JWT token in the headers.
-The server validates the token, allowing or denying access accordingly.
-Commenting System:
+<h3>Security Considerations:</h3>
 
-Users can comment on blog posts.
-Comments are associated with specific blog posts in the database.
-
-5. Security Considerations:
-
-Passwords are hashed before storage.
-JWT helps secure communication between the client and server.
-Authorization checks ensure that users can only edit or delete their own blog posts.
+<p>&nbsp&nbsp&nbspPasswords are hashed before storage.</p>
+<p>&nbsp&nbsp&nbspJWT helps secure communication between the client and server.</p>
+<p>&nbsp&nbsp&nbspAuthorization checks ensure that users can only edit or delete their own blog posts.</p>
