@@ -15,7 +15,7 @@
 <h3>Architecture:</h3>
 
 <p><b>&nbsp&nbspFrontend (React.js):</b></p>
-<p>&nbsp&nbsp&nbsp React is used for building the user interface. Components for displaying blog posts, handling user authentication, and managing user interactions.</p>
+<p>&nbsp&nbsp&nbspReact is used for building the user interface. Components for displaying blog posts, handling user authentication, and managing user interactions.</p>
 
 Backend (Node.js with Express.js):
 
