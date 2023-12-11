@@ -12,10 +12,9 @@
 <p>&nbsp&nbspComment on blog posts.</p>
 <p>&nbsp&nbspJWT-based authentication for secure user sessions.</p>
 
-3. Architecture:
+<h3>Architecture:</h3>
 
-Frontend (React.js):
-
+<b>&nbsp&nbspFrontend (React.js):</b>
 React is used for building the user interface.
 Components for displaying blog posts, handling user authentication, and managing user interactions.
 Backend (Node.js with Express.js):
