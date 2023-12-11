@@ -17,11 +17,12 @@
 <p><b>&nbsp&nbspFrontend (React.js):</b></p>
 <p>&nbsp&nbsp&nbspReact is used for building the user interface. Components for displaying blog posts, handling user authentication, and managing user &nbsp&nbsp&nbspinteractions.</p>
 
-Backend (Node.js with Express.js):
+<p><b>&nbsp&nbspBackend (Node.js with Express.js):</b></p>
 
-Express.js is used to create a RESTful API.
-Routes for user authentication (registration, login) and managing blog posts (CRUD operations).
-Interaction with the MongoDB database using Mongoose for data storage and retrieval.
+<p>&nbsp&nbsp&nbspExpress.js is used to create a RESTful API.</p>
+<p>&nbsp&nbsp&nbspRoutes for user authentication (registration, login) and managing blog posts (CRUD operations).</p>
+<p>&nbsp&nbsp&nbspInteraction with the MongoDB database using Mongoose for data storage and retrieval.</p>
+
 Database (MongoDB):
 
 MongoDB is used as a NoSQL database to store user information, blog posts, and comments.
