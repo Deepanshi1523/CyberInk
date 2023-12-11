@@ -5,7 +5,7 @@
 <p><b>&nbsp&nbspDatabase:</b> MongoDB</p>
 <p><b>&nbsp&nbspAuthentication:</b> JWT (JSON Web Tokens)</p>
 
-<h5>Features:</h5>
+<h3>Features:</h3>
 <p>&nbsp&nbspUser registration and authentication.</p>
 <p>&nbsp&nbspCreate, edit, and delete blog posts.</p>
 <p>&nbsp&nbspView a list of blog posts.</p>
