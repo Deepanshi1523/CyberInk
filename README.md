@@ -1,5 +1,5 @@
 # Blogie
-<h4>Technology Stack:</h4>
+<h3>Technology Stack:</h3>
 <p>  <b>Frontend (Client Side):</b> React.js</p>
 <p>  Backend (Server Side): Node.js with Express.js</p>
 <p>  Database: MongoDB</p>
