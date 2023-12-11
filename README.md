@@ -1,5 +1,5 @@
 # Blogie
-<h1>Technology Stack</h1>:
+<h4>Technology Stack</h4>:
 
 Frontend (Client Side): React.js
 Backend (Server Side): Node.js with Express.js
