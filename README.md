@@ -1,4 +1,4 @@
-# Blogie
+# CyberInk
 <h3>Technology Stack:</h3>
 <p><b>&nbsp&nbspFrontend (Client Side):</b> React.js</p>
 <p><b>&nbsp&nbspBackend (Server Side):</b> Node.js with Express.js</p>
